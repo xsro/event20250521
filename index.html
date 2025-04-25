@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>Conference Website</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold">Conference Website</a>
+            <div class="hidden md:block">
+                <a href="#conference-info" class="text-white mx-4 hover:text-gray-300">Conference Info</a>
+                <a href="#report1" class="text-white mx-4 hover:text-gray-300">Report 1</a>
+                <a href="#report2" class="text-white mx-4 hover:text-gray-300">Report 2</a>
+                <a href="#report3" class="text-white mx-4 hover:text-gray-300">Report 3</a>
+                <a href="#report4" class="text-white mx-4 hover:text-gray-300">Report 4</a>
+                <a href="#registration" class="text-white mx-4 hover:text-gray-300">Registration</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-600 p-4">
+            <a href="#conference-info" class="block text-white py-2 hover:text-gray-300">Conference Info</a>
+            <a href="#report1" class="block text-white py-2 hover:text-gray-300">Report 1</a>
+            <a href="#report2" class="block text-white py-2 hover:text-gray-300">Report 2</a>
+            <a href="#report3" class="block text-white py-2 hover:text-gray-300">Report 3</a>
+            <a href="#report4" class="block text-white py-2 hover:text-gray-300">Report 4</a>
+            <a href="#registration" class="block text-white py-2 hover:text-gray-300">Registration</a>
+        </div>
+    </nav>
+
+    <!-- Page 1: Conference Information -->
+    <section id="conference-info" class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Conference Information</h1>
+        <p class="text-2xl font-semibold text-center mb-4">2025年5月25日</p>
+        <p class="text-xl text-center mb-4 flex items-center justify-center gap-2">
+            中山大学深圳校区<a href="https://maps.app.goo.gl/t1iFkk9MFk5PA37s9" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在谷歌地图中查看"><img src="images/google-maps.svg" alt="谷歌地图" class="w-full h-full"></a>
+            <a href="https://j.map.baidu.com/6e/pck" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在百度地图中查看"><img src="https://map.baidu.com/favicon.ico" alt="百度地图" class="w-full h-full"></a>
+            <a href="https://surl.amap.com/HCHxUAtyeNJ" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在高德地图中查看"><img src="https://ditu.amap.com/favicon.ico" alt="高德地图" class="w-full h-full"></a>
+        </p>
+        <p class="text-xl text-center mb-4">
+            Sun Yat-sen University Shenzhen Campus
+        </p>
+        <p class="text-gray-700 leading-relaxed">This is an important conference on cutting-edge technologies, bringing together experts and scholars from various fields to discuss the latest industry trends and innovative achievements. The conference will cover multiple hot topics, including artificial intelligence, machine learning, big data, and more.</p>
+    </section>
+
+
+    <!-- Pages 3-6: Report Content -->
+    <section id="report1" class="container mx-auto p-8 relative">
+        <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
+            <img src="images/xia.jpg" alt="Report 1 Image" class="w-full h-full object-cover">
+        </div>
+        <div class="md:pl-56">
+            <h1 class="text-4xl font-bold text-center mb-8">无人集群系统分布式编队安全控制</h1>
+            <p class="text-gray-700 leading-relaxed">
+            报告提出一种无人集群系统鲁棒编队控制策略，旨在实现密集障碍环境中编队性能与安全性的平衡。基于一致性算法与自适应安全障碍函数，我们设计了一种新颖编队控制器。与传统方法采用控制障碍函数构建二次规划来确保无人系统安全性不同，该控制器提供具有解存在性保证的闭式解，避免了多重约束下二次规划不可行的问题。此外，相较于通过固定安全距离保障无人机安全性的方法，进一步提出根据无人系统速度自适应调整的动态安全距离机制，提高系统灵活性和环境适应性，满足不同场景的避障需求。仿真与实物实验验证了所提算法的有效性和可行性。
+        </p>
+        <h3 class="text-green-700">Bio: </h3>
+        <p class="text-gray-700 leading-relaxed">
+            夏卫国，分别于2006年和2009年在东南大学获得学士和硕士学位，2013年在荷兰格罗宁根大学获得博士学位，2013-2015年在瑞典皇家理工学院从事博士后研究工作。现任大连理工大学控制科学与工程学院教授，复杂系统与控制研究所所长。主要研究兴趣包括分布式协同控制、多自主体系统、复杂网络系统等，主持国家自然科学基金优秀青年基金、面上项目等，入选辽宁省"兴辽英才计划"青年拔尖人才，担任国际期刊Systems & Control Letters、IEEE Transactions on Cybernetics编委。
+        </p>
+    </section>
+    <section id="report2" class="container mx-auto p-8 relative">
+        <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
+            <img src="images/cao.webp" alt="Report 2 Image" class="w-full h-full object-cover">
+        </div>
+        <div class="md:pl-56">
+            <h1 class="text-4xl font-bold text-center mb-8">Optimal k-level coverage control using multi-centered Voronoi-like tessellations</h1>
+            <p class="text-gray-700 leading-relaxed">In this talk, we first define the k-level coverage problem using mobile sensor networks, in which each point in a given (convex) region of interest is simultaneously covered by k individual sensors. This formulation extends the standard setup of sensor network coverage problem by stipulating the stricter requirement of multiple responsible sensors for each region of the tessellation as a result of the partitioning of the region of interest. We use a modified Voronoi-like scheme to find out the (locally) optimal location and associated covering region for the mobile sensors and design a control law that drives individual mobile sensors to the optimal configuration asymptotically.</p>
+            <p class="text-gray-700 leading-relaxed">当机器人定位问题呈现病态特性时，其数值解往往不稳定。解决此类病态问题的常用方法是正则化，而Tikhonov正则化则是一种经典的正则化技术。在本次报告中，我将证明Tikhonov正则化可以视为一种更一般的高阶方法的低阶特例。我们发现，高阶正则化方法在逼近某些病态逆问题（如机器人定位问题）时，优于传统的Tikhonov正则化。此外，我们还构建了一种先验准则，用于提高病态问题数值解的稳定性。鉴于大多数正则化解存在偏差问题，我们还将探讨相关的偏差校正技术。</p>
+        <h3 class="text-green-700">Bio: </h3>
+        <p class="text-gray-700 leading-relaxed">曹明，自2016年起任职于荷兰格罗宁根大学工程与技术研究所（ENTEG），担任网络与机器人学教授，2008年加入该校，历任助理教授、副教授。自2022年起担任该校Jantina Tammes数字社会、技术与人工智能学院的院长。1999年和2002年分别获得清华大学学士学位和硕士学位，2007年获得美国耶鲁大学博士学位。2007年至2008年间，担任美国普林斯顿大学研究员，并于2006年在美国IBM T. J. Watson研究中心担任研究实习生。2017年荣获国际自动控制联合会（IFAC）首届Manfred Thoma奖，并于2016年获得欧洲控制协会（EUCA）颁发的欧洲控制奖。为IEEE院士和IFAC理事会成员，目前担任《Systems and Control Letters》高级编辑，《IEEE Transactions on Automatic Control》、《IEEE Transactions on Control of Network Systems》及《IEEE Robotics & Automation Magazine》副编辑，曾任《IEEE Transactions on Circuits and Systems》和《IEEE Circuits and Systems Magazine》副编辑。其研究兴趣包括自主机器人与多智能体系统、复杂网络与决策过程。</p>
+    </section>
+    <section id="report3" class="container mx-auto p-8 relative">
+        <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
+            <img src="images/Shim.jpg" alt="Report 3 Image" class="w-full h-full object-cover">
+        </div>
+        <div class="md:pl-56">
+            <h1 class="text-4xl font-bold text-center mb-8">Consensus of Vector Fields: Adaptation of Heterogeneous Node Dynamics</h1>
+            <p class="text-gray-700 leading-relaxed">We propose an adaptation mechanism for individual dynamical systems within a network. Initially, each system has distinct dynamics, but over time, adaptation occurs, leading to convergence toward a common vector field. The analysis is based on the blended dynamics theorem. The motivation and practical utility of this work will be explained. This work is currently under review for possible presentation at CDC 2025.</p>
+        <h3 class="text-green-700">Bio: </h3>
+        <p class="text-gray-700 leading-relaxed">Hyungbo Shim received his B.S. (1993), M.S. (1995), and Ph.D. (2000) degrees from Seoul National University. He was a postdoctoral researcher at the University of California, Santa Barbara, and is currently a professor at Seoul National University. He has served as an associate editor for Automatica, IEEE Transactions on Automatic Control, and the International Journal of Robust and Nonlinear Control. He is a senior member of IEEE, an IFAC Distinguished Lecturer, and a member of the Korean Academy of Science and Technology. His research interests include stability analysis of nonlinear systems, observer design, disturbance observers, secure control systems, and synchronization in multi-agent systems.</p>
+    </section>
+    <section id="report4" class="container mx-auto p-8 relative">
+        <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
+            <img src="images/Ahn.jpg" alt="Report 4 Image" class="w-full h-full object-cover">
+        </div>
+        <div class="md:pl-56">
+            <h1 class="text-4xl font-bold text-center mb-8">Matrix-Weighted Graphs: Motivations and Theory</h1>
+            <p class="text-gray-700 leading-relaxed">This talk introduces matrix-weighted graphs as a generalization of scalar-weighted graphs. There are a number of motivations for utilizing the concept of matrix-weighted graphs such as modelling of social networks and trades in economic models, and describing of formation control of multi-agent systems, mechanical and electrical networks and electrical power flows. For coupled networks, matrix-weighted Laplacian can be used for analyzing the dynamic behaviors for both undirected graphs and directed graphs.</p>
+        <h3 class="text-green-700">Bio: </h3>
+        <p class="text-gray-700 leading-relaxed">Hyo-Sung Ahn received the B.S. and M.S. degrees in astronomy from Yonsei University, Seoul, South Korea, in 1998 and 2000, respectively, the M.S. degree in electrical engineering from the University of North Dakota, Grand Forks, ND, USA, in 2003, and the Ph.D. degree in electrical engineering from Utah State University, Logan, UT, USA, in 2006. Since July 2007, he has been with the School of Mechatronics and the School of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST), Gwangju, South Korea. He was a Dasan Distinguished Professor (Dasan Professor), from 2013 to 2018. Before joining GIST, he was a Senior Researcher with the Electronics and Telecommunications Research Institute, Daejeon, South Korea. He was a Visiting Scholar with the Colorado School of Mines in 2019. He is currently a Professor with the School of Mechanical Engineering, GIST. Dr. Ahn is a Fellow of ICROS and Senior Member of IEEE, and he is serving as an Editor-in-Chief of International Journal of Control, Automation, and Systems. He is the author of the books Iterative Learning Control: Robustness and Monotonic Convergence for Interval Systems (Springer, 2007), Formation Control: Approaches for Distributed Agents (Springer, 2020), and a co-author of the book Control of Multi-agent Systems: Theory and Simulation with Python (Springer, 2024). He is the recipient of the Presidential Commendation of Korea (2024). His research interests include distributed control, aerospace navigation and control, network localization, and learning control.</p>
+    </section>
+
+    <!-- Last Page: Registration Method and Conference Program -->
+    <section id="registration" class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Registration Method and Conference Program</h1>
+        <p class="text-gray-700 leading-relaxed">Registration Method: Please fill out the registration form on the conference website and submit relevant information. The conference program will be sent to you via email after successful registration.</p>
+        <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 block w-max mx-auto mt-8">Register Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 p-4 text-white text-center">
+        &copy; 2025 Conference Website. All rights reserved.
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
+    
