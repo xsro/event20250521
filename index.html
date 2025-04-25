@@ -10,6 +10,7 @@
 </head>
 
 <body class="bg-gray-100 font-sans">
+    <canvas id="flockingCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; opacity: 0.6;"></canvas>
     <!-- Navigation Bar -->
     <nav class="bg-blue-600 p-4">
         <div class="container mx-auto flex justify-between items-center">
@@ -41,7 +42,7 @@
     <!-- Page 1: Conference Information -->
     <section id="conference-info" class="container mx-auto p-8">
         <h1 class="text-4xl font-bold text-center mb-8">Conference Information</h1>
-        <p class="text-2xl font-semibold text-center mb-4">2025年5月25日</p>
+        <p class="text-2xl font-semibold text-center mb-4">2025年5月21日</p>
         <p class="text-xl text-center mb-4 flex items-center justify-center gap-2">
             中山大学深圳校区<a href="https://maps.app.goo.gl/t1iFkk9MFk5PA37s9" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在谷歌地图中查看"><img src="images/google-maps.svg" alt="谷歌地图" class="w-full h-full"></a>
             <a href="https://j.map.baidu.com/6e/pck" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在百度地图中查看"><img src="https://map.baidu.com/favicon.ico" alt="百度地图" class="w-full h-full"></a>
@@ -57,7 +58,9 @@
     <!-- Pages 3-6: Report Content -->
     <section id="report1" class="container mx-auto p-8 relative">
         <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
-            <img src="images/xia.jpg" alt="Report 1 Image" class="w-full h-full object-cover">
+            <a href="https://faculty.dlut.edu.cn/weiguo/zh_CN/index.htm">
+                <img src="images/xia.jpg" alt="Report 1 Image" class="w-full h-full object-cover">
+            </a>
         </div>
         <div class="md:pl-56">
             <h1 class="text-4xl font-bold text-center mb-8">无人集群系统分布式编队安全控制</h1>
@@ -71,7 +74,9 @@
     </section>
     <section id="report2" class="container mx-auto p-8 relative">
         <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
-            <img src="images/cao.webp" alt="Report 2 Image" class="w-full h-full object-cover">
+            <a href="https://research.rug.nl/en/persons/ming-cao">
+                <img src="images/cao.webp" alt="Report 2 Image" class="w-full h-full object-cover">
+            </a>
         </div>
         <div class="md:pl-56">
             <h1 class="text-4xl font-bold text-center mb-8">Optimal k-level coverage control using multi-centered Voronoi-like tessellations</h1>
@@ -82,7 +87,9 @@
     </section>
     <section id="report3" class="container mx-auto p-8 relative">
         <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
-            <img src="images/Shim.jpg" alt="Report 3 Image" class="w-full h-full object-cover">
+            <a href="https://ece.snu.ac.kr/en/research-faculty/faculty/fulltime?md=view&profid=p060">
+                <img src="images/Shim.jpg" alt="Report 3 Image" class="w-full h-full object-cover">
+            </a>
         </div>
         <div class="md:pl-56">
             <h1 class="text-4xl font-bold text-center mb-8">Consensus of Vector Fields: Adaptation of Heterogeneous Node Dynamics</h1>
@@ -98,7 +105,7 @@
             <h1 class="text-4xl font-bold text-center mb-8">Matrix-Weighted Graphs: Motivations and Theory</h1>
             <p class="text-gray-700 leading-relaxed">This talk introduces matrix-weighted graphs as a generalization of scalar-weighted graphs. There are a number of motivations for utilizing the concept of matrix-weighted graphs such as modelling of social networks and trades in economic models, and describing of formation control of multi-agent systems, mechanical and electrical networks and electrical power flows. For coupled networks, matrix-weighted Laplacian can be used for analyzing the dynamic behaviors for both undirected graphs and directed graphs.</p>
         <h3 class="text-green-700">Bio: </h3>
-        <p class="text-gray-700 leading-relaxed">Hyo-Sung Ahn received the B.S. and M.S. degrees in astronomy from Yonsei University, Seoul, South Korea, in 1998 and 2000, respectively, the M.S. degree in electrical engineering from the University of North Dakota, Grand Forks, ND, USA, in 2003, and the Ph.D. degree in electrical engineering from Utah State University, Logan, UT, USA, in 2006. Since July 2007, he has been with the School of Mechatronics and the School of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST), Gwangju, South Korea. He was a Dasan Distinguished Professor (Dasan Professor), from 2013 to 2018. Before joining GIST, he was a Senior Researcher with the Electronics and Telecommunications Research Institute, Daejeon, South Korea. He was a Visiting Scholar with the Colorado School of Mines in 2019. He is currently a Professor with the School of Mechanical Engineering, GIST. Dr. Ahn is a Fellow of ICROS and Senior Member of IEEE, and he is serving as an Editor-in-Chief of International Journal of Control, Automation, and Systems. He is the author of the books Iterative Learning Control: Robustness and Monotonic Convergence for Interval Systems (Springer, 2007), Formation Control: Approaches for Distributed Agents (Springer, 2020), and a co-author of the book Control of Multi-agent Systems: Theory and Simulation with Python (Springer, 2024). He is the recipient of the Presidential Commendation of Korea (2024). His research interests include distributed control, aerospace navigation and control, network localization, and learning control.</p>
+        <p class="text-gray-700 leading-relaxed">Hyo-Sung Ahn（安孝晟） received the B.S. and M.S. degrees in astronomy from Yonsei University, Seoul, South Korea, in 1998 and 2000, respectively, the M.S. degree in electrical engineering from the University of North Dakota, Grand Forks, ND, USA, in 2003, and the Ph.D. degree in electrical engineering from Utah State University, Logan, UT, USA, in 2006. Since July 2007, he has been with the School of Mechatronics and the School of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST), Gwangju, South Korea. He was a Dasan Distinguished Professor (Dasan Professor), from 2013 to 2018. Before joining GIST, he was a Senior Researcher with the Electronics and Telecommunications Research Institute, Daejeon, South Korea. He was a Visiting Scholar with the Colorado School of Mines in 2019. He is currently a Professor with the School of Mechanical Engineering, GIST. Dr. Ahn is a Fellow of ICROS and Senior Member of IEEE, and he is serving as an Editor-in-Chief of International Journal of Control, Automation, and Systems. He is the author of the books Iterative Learning Control: Robustness and Monotonic Convergence for Interval Systems (Springer, 2007), Formation Control: Approaches for Distributed Agents (Springer, 2020), and a co-author of the book Control of Multi-agent Systems: Theory and Simulation with Python (Springer, 2024). He is the recipient of the Presidential Commendation of Korea (2024). His research interests include distributed control, aerospace navigation and control, network localization, and learning control.</p>
     </section>
 
     <!-- Last Page: Registration Method and Conference Program -->
@@ -120,6 +127,20 @@
         menuToggle.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
+    </script>
+    <script src="js/flocking.js"></script>
+    <script>
+        const canvas = document.getElementById('flockingCanvas');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        const simulation = new FlockingSimulation(canvas);
+        simulation.animate();
     </script>
 </body>
 
