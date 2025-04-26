@@ -13,20 +13,20 @@ avatar = "/images/张凡.jpg"
 favicon = "/images/favicon.ico"  # Please use .ico format
 
 [params.menu]
-[params.menu.Index]
+[params.menu.Home]
     name = "Index"
-    url = "/index/"
+    url = "/home/"
     weight = 1
 
 [params.menu.About]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 2
 
 [params.menu.Publications]
     name = "Publications"
     url = "/publication/"
-    weight = 2
+    weight = 3
 
 [params.menu.Event]
     name = "Workshop 2025"
@@ -34,30 +34,12 @@ favicon = "/images/favicon.ico"  # Please use .ico format
     weight = 4
 
 
-[[params.social.links]]
+[params.social.links]
     name = "Envelope"  # E-mail
     icon = "fas fa-envelope"
     url = "mailto:drfzh@outlook.com"
     weight = 3
 
-[[params.social.links]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    url = "index.xml/"
-    weight = 4
-
-
-[[params.e_social.links]]
-    name = "Google Scholar"
-    url = "/"
-    icon = "fas fa-graduation-cap"
-    weight = 1
-
-[[params.e_social.links]]
-    name = "ORCID"
-    url = "/"
-    icon = "fab fa-orcid"
-    weight = 2
 
 # CDN
 # 根据需要自行添加js/css
