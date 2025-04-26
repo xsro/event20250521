@@ -1,7 +1,6 @@
-name: Deploy Vite Project to GitHub Pages
+name: Deploy Vite Project to GitHub Pages with pnpm
 
 on:
-  # 当推送到主分支时触发此工作流
   push:
     branches:
       - main
@@ -11,25 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 检出代码到工作区
       - name: Checkout
         uses: actions/checkout@v3
 
-      # 设置 Node.js 环境
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: 'pnpm'
 
-      # 安装依赖
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
 
-      # 构建项目
       - name: Build project
         run: pnpm run build
 
-      # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
