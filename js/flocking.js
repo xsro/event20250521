@@ -7,7 +7,8 @@ class Boid {
         };
         this.acceleration = { x: 0, y: 0 };
         this.maxForce = 0.2;
-        this.maxSpeed = 4;
+        this.maxSpeed = 2;
+        this.color = `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`;
     }
 
     edges(width, height) {
@@ -162,6 +163,56 @@ class Boid {
     }
 }
 
+
+function draw_uav(ctx,x,y,color,circleRadius=4,lineLength=10){
+
+    // 绘制四个圆
+    // 左上角的圆
+    ctx.beginPath();
+    ctx.arc(x - lineLength / 2, y - lineLength / 2, circleRadius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.closePath();
+
+    // 右上角的圆
+    ctx.beginPath();
+    ctx.arc(x + lineLength / 2, y - lineLength / 2, circleRadius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.closePath();
+
+    // 左下角的圆
+    ctx.beginPath();
+    ctx.arc(x - lineLength / 2, y + lineLength / 2, circleRadius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.closePath();
+
+    // 右下角的圆
+    ctx.beginPath();
+    ctx.arc(x + lineLength / 2, y + lineLength / 2, circleRadius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.closePath();
+
+    // 绘制两条线
+    ctx.beginPath();
+    ctx.moveTo(x - lineLength / 2, y - lineLength / 2);
+    ctx.lineTo(x + lineLength / 2, y + lineLength / 2);
+    ctx.strokeStyle = 'rgba(107, 114, 128, 0.5)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.moveTo(x + lineLength / 2, y - lineLength / 2);
+    ctx.lineTo(x - lineLength / 2, y + lineLength / 2);
+    ctx.strokeStyle = 'rgba(107, 114, 128, 0.5)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.closePath();
+}
+
 class FlockingSimulation {
     constructor(canvas) {
         this.canvas = canvas;
@@ -182,7 +233,8 @@ class FlockingSimulation {
     }
 
     animate() {
-        this.ctx.fillStyle = 'rgba(243, 244, 246, 0.1)';
+        // ctx.clearRect(0, 0, canvas.width, canvas.height);
+        this.ctx.fillStyle = 'rgba(243, 244, 246, 0.8)';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
         for (let boid of this.boids) {
@@ -190,10 +242,11 @@ class FlockingSimulation {
             boid.flock(this.boids);
             boid.update();
 
-            this.ctx.beginPath();
-            this.ctx.arc(boid.position.x, boid.position.y, 2, 0, Math.PI * 2);
-            this.ctx.fillStyle = 'rgba(107, 114, 128, 0.5)';
-            this.ctx.fill();
+            // this.ctx.beginPath();
+            // this.ctx.arc(boid.position.x, boid.position.y, 2, 0, Math.PI * 2);
+            // this.ctx.fillStyle = 'rgba(107, 114, 128, 0.5)';
+            // this.ctx.fill();
+            draw_uav(this.ctx,boid.position.x,boid.position.y,boid.color)
         }
 
         requestAnimationFrame(() => this.animate());

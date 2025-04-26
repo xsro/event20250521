@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://drfzh.github.io/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    <title>Conference Website</title>
+    <title>SYSUsz 2025 Workshop</title>
+    <style>
+    </style>
 </head>
 
 <body class="bg-gray-100 font-sans">
@@ -16,12 +19,11 @@
         <div class="container mx-auto flex justify-between items-center">
             <a href="#" class="text-white text-xl font-bold">Conference Website</a>
             <div class="hidden md:block">
-                <a href="#conference-info" class="text-white mx-4 hover:text-gray-300">Conference Info</a>
+                <a href="#conference-info" class="text-white mx-4 hover:text-gray-300">Info</a>
                 <a href="#report1" class="text-white mx-4 hover:text-gray-300">Report 1</a>
                 <a href="#report2" class="text-white mx-4 hover:text-gray-300">Report 2</a>
                 <a href="#report3" class="text-white mx-4 hover:text-gray-300">Report 3</a>
                 <a href="#report4" class="text-white mx-4 hover:text-gray-300">Report 4</a>
-                <a href="#registration" class="text-white mx-4 hover:text-gray-300">Registration</a>
             </div>
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-white focus:outline-none">
@@ -30,28 +32,35 @@
             </div>
         </div>
         <div id="mobile-menu" class="hidden md:hidden bg-blue-600 p-4">
-            <a href="#conference-info" class="block text-white py-2 hover:text-gray-300">Conference Info</a>
+            <a href="#conference-info" class="block text-white py-2 hover:text-gray-300">Info</a>
             <a href="#report1" class="block text-white py-2 hover:text-gray-300">Report 1</a>
             <a href="#report2" class="block text-white py-2 hover:text-gray-300">Report 2</a>
             <a href="#report3" class="block text-white py-2 hover:text-gray-300">Report 3</a>
             <a href="#report4" class="block text-white py-2 hover:text-gray-300">Report 4</a>
-            <a href="#registration" class="block text-white py-2 hover:text-gray-300">Registration</a>
         </div>
     </nav>
 
     <!-- Page 1: Conference Information -->
     <section id="conference-info" class="container mx-auto p-8">
-        <h1 class="text-4xl font-bold text-center mb-8">Conference Information</h1>
-        <p class="text-2xl font-semibold text-center mb-4">2025年5月21日</p>
+        <h1 class="text-4xl font-bold text-center mb-8">SYSU (Shenzhen) 2025 Workshop</h1>
+        <p class="text-2xl font-semibold text-center mb-4">May 21st, 2025 Shenzhen</p>
         <p class="text-xl text-center mb-4 flex items-center justify-center gap-2">
-            中山大学深圳校区<a href="https://maps.app.goo.gl/t1iFkk9MFk5PA37s9" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在谷歌地图中查看"><img src="images/google-maps.svg" alt="谷歌地图" class="w-full h-full"></a>
+            Sun Yat-sen University Shenzhen Campus
+            <a href="https://maps.app.goo.gl/t1iFkk9MFk5PA37s9" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在谷歌地图中查看"><img src="images/google-maps.svg" alt="谷歌地图" class="w-full h-full"></a>
             <a href="https://j.map.baidu.com/6e/pck" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在百度地图中查看"><img src="https://map.baidu.com/favicon.ico" alt="百度地图" class="w-full h-full"></a>
             <a href="https://surl.amap.com/HCHxUAtyeNJ" target="_blank" class="inline-block w-6 h-6 hover:opacity-80" title="在高德地图中查看"><img src="https://ditu.amap.com/favicon.ico" alt="高德地图" class="w-full h-full"></a>
         </p>
-        <p class="text-xl text-center mb-4">
-            Sun Yat-sen University Shenzhen Campus
+        <p class="text-gray-900 text-center mb-4 flex items-center justify-center gap-2">
+            No.66,Gongchang Road,Guangming District,Shenzhen,Guangdong 518107,P.R.China
+        </p> 
+        
+        <p class="text-xl text-gray-900 leading-relaxed lg:mx-[10%]">
+            This workshop is organized by  <a class="text-blue-900 relative inline-block before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:origin-left before:scale-x-0 before:bg-gray-900 before:transition-transform before:duration-300 hover:before:scale-x-100" href="https://drfzh.github.io">Dr. Zhang Fan</a>. We are honored to invite four distinguished experts to deliver keynote speeches and engage in exchanges. Their profound expertise and rich experience will surely bring valuable insights to our discussions. We warmly welcome all experts' guidance and look forward to a fruitful and inspiring session together.
         </p>
-        <p class="text-gray-700 leading-relaxed">This is an important conference on cutting-edge technologies, bringing together experts and scholars from various fields to discuss the latest industry trends and innovative achievements. The conference will cover multiple hot topics, including artificial intelligence, machine learning, big data, and more.</p>
+        <p class="text-xl text-gray-900 lg:mx-[10%]">
+            Thank you for your participation!
+        </p>
+        
     </section>
 
 
@@ -88,7 +97,7 @@
     <section id="report3" class="container mx-auto p-8 relative">
         <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
             <a href="https://ece.snu.ac.kr/en/research-faculty/faculty/fulltime?md=view&profid=p060">
-                <img src="images/Shim.jpg" alt="Report 3 Image" class="w-full h-full object-cover">
+                <img src="images/Shim2.jpg" alt="Report 3 Image" class="w-full h-full object-cover">
             </a>
         </div>
         <div class="md:pl-56">
@@ -99,7 +108,9 @@
     </section>
     <section id="report4" class="container mx-auto p-8 relative">
         <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden shadow-md mx-auto mb-8 md:absolute md:top-8 md:left-8">
-            <img src="images/Ahn.jpg" alt="Report 4 Image" class="w-full h-full object-cover">
+            <a href="https://sites.google.com/view/hyosungahn">
+                <img src="images/Ahn2.png" alt="Report 4 Image" class="w-full h-full object-cover">
+            </a>
         </div>
         <div class="md:pl-56">
             <h1 class="text-4xl font-bold text-center mb-8">Matrix-Weighted Graphs: Motivations and Theory</h1>
@@ -108,12 +119,11 @@
         <p class="text-gray-700 leading-relaxed">Hyo-Sung Ahn（安孝晟） received the B.S. and M.S. degrees in astronomy from Yonsei University, Seoul, South Korea, in 1998 and 2000, respectively, the M.S. degree in electrical engineering from the University of North Dakota, Grand Forks, ND, USA, in 2003, and the Ph.D. degree in electrical engineering from Utah State University, Logan, UT, USA, in 2006. Since July 2007, he has been with the School of Mechatronics and the School of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST), Gwangju, South Korea. He was a Dasan Distinguished Professor (Dasan Professor), from 2013 to 2018. Before joining GIST, he was a Senior Researcher with the Electronics and Telecommunications Research Institute, Daejeon, South Korea. He was a Visiting Scholar with the Colorado School of Mines in 2019. He is currently a Professor with the School of Mechanical Engineering, GIST. Dr. Ahn is a Fellow of ICROS and Senior Member of IEEE, and he is serving as an Editor-in-Chief of International Journal of Control, Automation, and Systems. He is the author of the books Iterative Learning Control: Robustness and Monotonic Convergence for Interval Systems (Springer, 2007), Formation Control: Approaches for Distributed Agents (Springer, 2020), and a co-author of the book Control of Multi-agent Systems: Theory and Simulation with Python (Springer, 2024). He is the recipient of the Presidential Commendation of Korea (2024). His research interests include distributed control, aerospace navigation and control, network localization, and learning control.</p>
     </section>
 
-    <!-- Last Page: Registration Method and Conference Program -->
-    <section id="registration" class="container mx-auto p-8">
-        <h1 class="text-4xl font-bold text-center mb-8">Registration Method and Conference Program</h1>
-        <p class="text-gray-700 leading-relaxed">Registration Method: Please fill out the registration form on the conference website and submit relevant information. The conference program will be sent to you via email after successful registration.</p>
-        <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 block w-max mx-auto mt-8">Register Now</a>
-    </section>
+    <div class="text-center">
+        <a class="relative inline-block before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:origin-left before:scale-x-0 before:bg-gray-900 before:transition-transform before:duration-300 hover:before:scale-x-100"  href="https://www.douyin.com/video/7404160762358304040" target="_blank"> 
+            <img src="images/guangming.webp" alt="Douyin" class="w-100 h-60">
+        </a>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-blue-600 p-4 text-white text-center">
@@ -140,7 +150,9 @@
         });
 
         const simulation = new FlockingSimulation(canvas);
-        simulation.animate();
+        setTimeout(() => {
+            simulation.animate();
+        }, 10*1000);
     </script>
 </body>
 
