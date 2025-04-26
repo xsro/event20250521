@@ -237,7 +237,7 @@ class FlockingSimulation {
         this.ctx.fillStyle = 'rgba(243, 244, 246, 0.9)';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
-        let total =this.boids.length*(window.innerWidth*window.innerHeight)/150000;
+        let total =this.boids.length*(this.canvas.width*this.canvas.height)/150000;
         total=Math.ceil(total);
 
         for (let i in this.boids) {
