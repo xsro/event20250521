@@ -6,8 +6,8 @@ class Boid {
             y: Math.random() * 2 - 1
         };
         this.acceleration = { x: 0, y: 0 };
-        this.maxForce = 0.2;
-        this.maxSpeed = 2;
+        this.maxForce = 0.1;
+        this.maxSpeed = 1;
         this.color = `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`;
     }
 
@@ -222,7 +222,7 @@ class FlockingSimulation {
     }
 
     init() {
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 20; i++) {
             this.boids.push(
                 new Boid(
                     Math.random() * this.canvas.width,
@@ -234,10 +234,17 @@ class FlockingSimulation {
 
     animate() {
         // ctx.clearRect(0, 0, canvas.width, canvas.height);
-        this.ctx.fillStyle = 'rgba(243, 244, 246, 0.8)';
+        this.ctx.fillStyle = 'rgba(243, 244, 246, 0.9)';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
-        for (let boid of this.boids) {
+        let total =this.boids.length*(window.innerWidth*window.innerHeight)/150000;
+        total=Math.ceil(total);
+
+        for (let i in this.boids) {
+            let boid=this.boids[i];
+            if(i>total){
+                continue;
+            }
             boid.edges(this.canvas.width, this.canvas.height);
             boid.flock(this.boids);
             boid.update();
