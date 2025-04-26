@@ -5,17 +5,17 @@ theme= "hugo-academia"
 canonifyURLs = true # if use absolute path.
 
 [params]
-author = "drfzh"
-author_bio = ""
+author = "Dr. Zhang Fan"
+author_bio = "email:drfzh[at]outlook.com"
 since = "2018"
 icp = ""
 avatar = "/images/张凡.jpg"
-favicon = "/images/favicon.ico"  # Please use .ico format
+favicon = "/images/favicon-32x32.ico"  # Please use .ico format
 
 [params.menu]
 [params.menu.Home]
-    name = "Index"
-    url = "/home/"
+    name = "Home"
+    url = "/"
     weight = 1
 
 [params.menu.About]
@@ -30,7 +30,7 @@ favicon = "/images/favicon.ico"  # Please use .ico format
 
 [params.menu.Event]
     name = "Workshop 2025"
-    url = "events/workshop2025"
+    url = "events/workshop20250521"
     weight = 4
 
 
@@ -38,7 +38,7 @@ favicon = "/images/favicon.ico"  # Please use .ico format
     name = "Envelope"  # E-mail
     icon = "fas fa-envelope"
     url = "mailto:drfzh@outlook.com"
-    weight = 3
+    weight = 1
 
 
 # CDN

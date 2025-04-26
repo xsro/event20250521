@@ -1,7 +1,9 @@
 ---
-title: "Homepage"
+title: ""
+homepage: true
 ---
 
-# Welcome to our workshop
+# Welcome to our workshop in Shenzhen Guangming
 
-[Workshop 2025](../events/workshop2025.md)
+
+[![Guangming](images/guangming.webp)](./events/workshop20250521/)
