@@ -60,7 +60,7 @@ weight = 2
   enable = true
 
 [params.e_social.links."email"]
-name = "drfzh@outlook.com"
+name = "email"
 url = "mailto:drfzh@outlook.com"
 icon = "fas fa-graduation-cap"
 weight = 1
