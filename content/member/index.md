@@ -32,6 +32,11 @@ Yuxin Zhang <br>
 email: <a href="mailto:zhangyuxin5149@163.com"> zhangyuxin5149@163.com </a>
 {{< /image_left_content_right >}}
 
+{{< image_left_content_right src="images/xiong.jpg" >}}
+ShaoFeng Xiong <br>
+email: <a href="mailto:xiongsf8131@qq.com"> xiongsf8131@qq.com </a>
+{{< /image_left_content_right >}}
+
 ### Current undergratutes
 
 - 2024.9 - : PeiPei Jin, NiCan Liu
