@@ -3,8 +3,11 @@
   {{ $width := .Get "width" | default "300" }}
   {{ $height := .Get "height" | default "200" }}
   {{ $image := $src.Fill (printf "%sx%s Center" $width $height) }}
+  {{ $href :=.Get "href" | default $src.RelPermalink}}
   <p style="text-align: center;">
+    <a href="{{ $href }}" target="_blank">
       <img src="{{ $image.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" alt="{{ .Get "alt" }}">
+    </a>
   </p>
 {{ else }}
   <p>Image not found: {{ .Get "src" }}</p>
