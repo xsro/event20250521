@@ -19,6 +19,7 @@
     flex-direction: column; /* 移动端上下排列 */
   }
   .image-left {
+    margin: 0;
     max-width: 100%; /* 移动端图片撑满宽度 */
   }
   .content-right {
@@ -38,11 +39,11 @@
   {{ $height := .Get "height" | default "100" }}
   {{ $image := $src.Fill (printf "%sx%s Center" $width $height) }}
   {{ $href :=.Get "href" | default $src.RelPermalink}}
-    <p class="image-left" style="text-align: center;">
+    <div class="image-left" style="text-align: center;">
       <a href="{{ $href }}" target="_blank">
         <img src="{{ $image.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" >
       </a>
-    </p>
+    </div>
   {{ else }}
     <p>Image not found: {{ .Get "src" }}</p>
   {{ end }}
