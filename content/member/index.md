@@ -7,6 +7,7 @@ members:
     email: "liuch586@mail2.sysu.edu.cn"
     research: "self-organizing fencing control"
     website: "https://xsro.github.io"
+    hobby: "Developing"
   - name: "YunWei Guo"
     img: "images/gyw.png"
     status: "Ph.D. student"
@@ -17,6 +18,7 @@ members:
     email: "yangzhm23@mail2.sysu.edu.cn"
     status: "Ph.D. student"
     research: "ZNN networks"
+    hobby: "Basketball"
   - name: "YuXin Zhang"
     img: "images/zhangyuxin5149.jpg"
     email: "zhangyuxin5149@163.com"
@@ -29,10 +31,12 @@ members:
     img: "images/chenh.jpg"
     email: "chenh777@mail2.sysu.edu.cn"
     research: "fencing control; Reinforcement learning"
+    hobby: "Basketball"
   - name: "YuAng Ke"
     img: "images/keyuang.jpg"
     email: "keyang3@mail2.sysu.edu.cn"
     research: "fencing control; Reinforcement learning"
+    hobby: "Basketball"
 ---
 
 ### Current Ph.D. students
@@ -42,7 +46,6 @@ members:
 
 {{< member "ZhiMing Yang" >}}
 {{< member "YunWei Guo" >}}
-{{< member "Cheng Liu" >}}
 
 ### Current master students
 
@@ -55,6 +58,7 @@ members:
 {{< member "ShaoFeng Xiong">}}
 {{< member "Hao Chen">}}
 {{< member "YuAng Ke">}}
+{{< member "Cheng Liu" >}}
 
 ### Current undergratutes
 

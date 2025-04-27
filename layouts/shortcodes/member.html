@@ -77,7 +77,10 @@
                 {{ end }}
                 <p><strong>Research:</strong> {{ .research }}</p>
                 {{ with .website }}
-                    <p>Website: <a href="{{ . }}">{{ . }}</a></p>
+                    <p><strong>Website:</strong> <a href="{{ . }}">{{ . }}</a></p>
+                {{ end }}
+                {{ with.hobby }}
+                    <p><strong>Hobby:</strong> {{ . }}</p>
                 {{ end }}
             </div>
         </div>
