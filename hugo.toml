@@ -6,7 +6,7 @@ canonifyURLs = true # if use absolute path.
 
 [params]
 author = "Dr. Zhang Fan"
-author_bio = "email:drfzh[at]outlook.com"
+author_bio = ""
 since = "2018"
 icp = ""
 avatar = "/images/张凡.jpg"
@@ -33,13 +33,32 @@ favicon = "/images/favicon-32x32.ico"  # Please use .ico format
     url = "events/workshop20250521"
     weight = 4
 
+[params.loading_bg]
+  flink = "/images/profile.png"
 
-[params.social.links]
-    name = "Envelope"  # E-mail
-    icon = "fas fa-envelope"
-    url = "mailto:drfzh@outlook.com"
-    weight = 1
+  [params.social]
+  enable = true
 
+[params.social.links.SYSU]
+icon = "fas fa-university"
+url = "https://saa.sysu.edu.cn/teacher/231"
+weight = 1
+
+
+[params.social.links.Envelope]
+icon = "fas fa-envelope"
+url = "mailto:drfzh@outlook.com"
+weight = 2
+
+
+  [params.e_social]
+  enable = true
+
+[params.e_social.links."email"]
+name = "drfzh@outlook.com"
+url = "mailto:drfzh@outlook.com"
+icon = "fas fa-graduation-cap"
+weight = 1
 
 # CDN
 # 根据需要自行添加js/css
