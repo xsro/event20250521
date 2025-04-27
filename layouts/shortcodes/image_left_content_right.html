@@ -1,0 +1,41 @@
+<style>
+/* 图片左浮动布局 */
+.image-left-container {
+  display: flex;
+  flex-wrap: wrap; /* 小屏幕自动换行 */
+  margin: 2rem 0; /* 容器上下边距 */
+  gap: 1.5rem; /* 图片与内容的间距 */
+}
+
+.image-left {
+  max-width: 20%; /* 图片最大宽度（可调整为百分比或固定像素） */
+  height: auto;
+  border-radius: 4px; /* 图片圆角 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 图片阴影 */
+}
+
+.content-right {
+  flex: 1; /* 内容自动填充剩余空间 */
+  line-height: 1.6; /* 文本行高 */
+}
+
+/* 小屏幕适配（可选） */
+@media (max-width: 500px) {
+  .image-left-container {
+    flex-direction: column; /* 移动端上下排列 */
+  }
+  .image-left {
+    max-width: 100%; /* 移动端图片撑满宽度 */
+  }
+}
+</style>
+
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "Image" }}
+<div class="image-left-container">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="image-left">
+  <div class="content-right">
+    {{ .Inner }}
+  </div>
+</div>
