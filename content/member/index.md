@@ -18,7 +18,7 @@ website: <a href="https://xsro.github.io/">xsro.github.io<a><br>
 github: <a href="https://github.com/xsro">github.com/xsro<a><br>
 {{< /image_left_content_right >}}
 
-{{< image_left_content_right src="images/gyw.jpg" >}}
+{{< image_left_content_right src="images/gyw.png" >}}
 YunWei Guo <br>
 email: <a href="mailto:guoyw29@mail2.sysu.edu.cn"> guoyw29@mail2.sysu.edu.cn </a>
 {{< /image_left_content_right >}}
