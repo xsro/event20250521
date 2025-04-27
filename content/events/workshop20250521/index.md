@@ -39,7 +39,7 @@ Hyungbo Shim received his B.S. (1993), M.S. (1995), and Ph.D. (2000) degrees fro
 
 
 
-## 夏卫国 | 无人集群系统分布式编队安全控制
+## Weiguo Xia | Distributed Formation Safety Control for Unmanned Swarm Systems
 
 {{< fixed-image src="images/xia.jpg" width="300" height="300" alt="My Image" href="https://faculty.dlut.edu.cn/weiguo/zh_CN/index.htm">}}
 
