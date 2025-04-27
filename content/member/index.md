@@ -37,6 +37,10 @@ ShaoFeng Xiong <br>
 email: <a href="mailto:xiongsf8131@qq.com"> xiongsf8131@qq.com </a>
 {{< /image_left_content_right >}}
 
+{{< image_left_content_right src="images/chenh.jpg" >}}
+Hao Chen <br>
+email: <a href="mailto:chenh777@mail2.sysu.edu.cn"> chenh777@mail2.sysu.edu.cn </a>
+{{< /image_left_content_right >}}
 ### Current undergratutes
 
 - 2024.9 - : PeiPei Jin, NiCan Liu
