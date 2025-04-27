@@ -18,7 +18,10 @@ website: <a href="https://xsro.github.io/">xsro.github.io<a><br>
 github: <a href="https://github.com/xsro">github.com/xsro<a><br>
 {{< /image_left_content_right >}}
 
-
+{{< image_left_content_right src="images/gyw.jpg" >}}
+YunWei Guo <br>
+email: <a href="mailto:guoyw29@mail2.sysu.edu.cn"> guoyw29@mail2.sysu.edu.cn </a>
+{{< /image_left_content_right >}}
 
 ### Current master students
 
@@ -40,6 +43,12 @@ email: <a href="mailto:xiongsf8131@qq.com"> xiongsf8131@qq.com </a>
 {{< image_left_content_right src="images/chenh.jpg" >}}
 Hao Chen <br>
 email: <a href="mailto:chenh777@mail2.sysu.edu.cn"> chenh777@mail2.sysu.edu.cn </a>
+{{< /image_left_content_right >}}
+### Current undergratutes
+
+{{< image_left_content_right src="images/keyuang.jpg" >}}
+YuAng Ke <br>
+email: <a href="mailto:keyang3@mail2.sysu.edu.cn"> keyang3@mail2.sysu.edu.cn </a>
 {{< /image_left_content_right >}}
 ### Current undergratutes
 
