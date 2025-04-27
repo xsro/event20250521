@@ -7,10 +7,15 @@ title: "Group Members"
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< image_left_content_right src="https://avatars.githubusercontent.com/u/64292434?v=4" >}}
+{{< image_left_content_right src="images/liuch586.jpg" >}}
 Cheng Liu <a href="mailto:liuch586@mail2.sysu.edu.cn"> email </a><br>
 website: https://xsro.github.io/<br>
 github: https://github.com/xsro<br>
+{{< /image_left_content_right >}}
+
+{{< image_left_content_right src="images/yangzhm23.jpg" >}}
+ZhiMing Yang <br>
+email: <a href="mailto:yangzhm23@mail2.sysu.edu.cn"> yangzhm23@mail2.sysu.edu.cn </a>
 {{< /image_left_content_right >}}
 
 ### Current master students

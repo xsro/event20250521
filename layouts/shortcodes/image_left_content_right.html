@@ -7,13 +7,6 @@
   gap: 1.5rem; /* 图片与内容的间距 */
 }
 
-.image-left {
-  max-width: 20%; /* 图片最大宽度（可调整为百分比或固定像素） */
-  height: auto;
-  border-radius: 4px; /* 图片圆角 */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 图片阴影 */
-}
-
 .content-right {
   flex: 1; /* 内容自动填充剩余空间 */
   line-height: 1.6; /* 文本行高 */
@@ -31,11 +24,23 @@
 </style>
 
 
-{{ $src := .Get "src" }}
-{{ $alt := .Get "alt" | default "Image" }}
+{{ $src := .Page.Resources.GetMatch (printf "%s" (.Get "src")) }}
 <div class="image-left-container">
-  <img src="{{ $src }}" alt="{{ $alt }}" class="image-left">
+  {{ if $src }}
+  {{ $width := .Get "width" | default "100" }}
+  {{ $height := .Get "height" | default "100" }}
+  {{ $image := $src.Fill (printf "%sx%s Center" $width $height) }}
+  {{ $href :=.Get "href" | default $src.RelPermalink}}
+    <p style="text-align: center;">
+      <a href="{{ $href }}" target="_blank">
+        <img src="{{ $image.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" class="image-left">
+      </a>
+    </p>
+  {{ else }}
+    <p>Image not found: {{ .Get "src" }}</p>
+  {{ end }}
   <div class="content-right">
+    <br>
     {{ .Inner }}
   </div>
 </div>
