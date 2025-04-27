@@ -1,5 +1,38 @@
 ---
 title: "Group Members"
+members:
+  - name: "Cheng Liu"
+    img: "images/liuch586.jpg"
+    status: "Ph.D. student"
+    email: "liuch586@mail2.sysu.edu.cn"
+    research: "self-organizing fencing control"
+    website: "https://xsro.github.io"
+  - name: "YunWei Guo"
+    img: "images/gyw.png"
+    status: "Ph.D. student"
+    email: "guoyw29@mail2.sysu.edu.cn"
+    research: "UAV control"
+  - name: "ZhiMing Yang"
+    img: "images/yangzhm23.jpg"
+    email: "yangzhm23@mail2.sysu.edu.cn"
+    status: "Ph.D. student"
+    research: "ZNN networks"
+  - name: "YuXin Zhang"
+    img: "images/zhangyuxin5149.jpg"
+    email: "zhangyuxin5149@163.com"
+    research: "bearing based control"
+  - name: "ShaoFeng Xiong"
+    img: "images/xiong.jpg"
+    email: "xiongsf8131@qq.com"
+    research: "fencing control; Reinforcement learning"
+  - name: "Hao Chen"
+    img: "images/chenh.jpg"
+    email: "chenh777@mail2.sysu.edu.cn"
+    research: "fencing control; Reinforcement learning"
+  - name: "YuAng Ke"
+    img: "images/keyuang.jpg"
+    email: "keyang3@mail2.sysu.edu.cn"
+    research: "fencing control; Reinforcement learning"
 ---
 
 ### Current Ph.D. students
@@ -7,49 +40,22 @@ title: "Group Members"
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< image_left_content_right src="images/yangzhm23.jpg" >}}
-ZhiMing Yang <br>
-email: <a href="mailto:yangzhm23@mail2.sysu.edu.cn"> yangzhm23@mail2.sysu.edu.cn </a>
-{{< /image_left_content_right >}}
-
-{{< image_left_content_right src="images/liuch586.jpg" >}}
-Cheng Liu <a href="mailto:liuch586@mail2.sysu.edu.cn"> email </a><br>
-website: <a href="https://xsro.github.io/">xsro.github.io<a><br>
-github: <a href="https://github.com/xsro">github.com/xsro<a><br>
-{{< /image_left_content_right >}}
-
-{{< image_left_content_right src="images/gyw.png" >}}
-YunWei Guo <br>
-email: <a href="mailto:guoyw29@mail2.sysu.edu.cn"> guoyw29@mail2.sysu.edu.cn </a>
-{{< /image_left_content_right >}}
+{{< member "ZhiMing Yang" >}}
+{{< member "YunWei Guo" >}}
+{{< member "Cheng Liu" >}}
 
 ### Current master students
 
-- 2025.9 - : Yuxin Zhang, JiaYi Li, ShaoFeng Xiong, PeiPei Jin
+- 2025.9 - : YuXin Zhang, JiaYi Li, ShaoFeng Xiong, PeiPei Jin
 - 2024.9 - : Hao Chen, QinTao Lai, RuTao Zhong
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< image_left_content_right src="images/zhangyuxin5149.jpg" >}}
-Yuxin Zhang <br>
-email: <a href="mailto:zhangyuxin5149@163.com"> zhangyuxin5149@163.com </a>
-{{< /image_left_content_right >}}
+{{< member "YuXin Zhang">}}
+{{< member "ShaoFeng Xiong">}}
+{{< member "Hao Chen">}}
+{{< member "YuAng Ke">}}
 
-{{< image_left_content_right src="images/xiong.jpg" >}}
-ShaoFeng Xiong <br>
-email: <a href="mailto:xiongsf8131@qq.com"> xiongsf8131@qq.com </a>
-{{< /image_left_content_right >}}
-
-{{< image_left_content_right src="images/chenh.jpg" >}}
-Hao Chen <br>
-email: <a href="mailto:chenh777@mail2.sysu.edu.cn"> chenh777@mail2.sysu.edu.cn </a>
-{{< /image_left_content_right >}}
-### Current undergratutes
-
-{{< image_left_content_right src="images/keyuang.jpg" >}}
-YuAng Ke <br>
-email: <a href="mailto:keyang3@mail2.sysu.edu.cn"> keyang3@mail2.sysu.edu.cn </a>
-{{< /image_left_content_right >}}
 ### Current undergratutes
 
 - 2024.9 - : PeiPei Jin, NiCan Liu
