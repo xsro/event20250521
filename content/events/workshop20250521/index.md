@@ -22,6 +22,9 @@ Hyo-Sung Ahn received the B.S. and M.S. degrees in astronomy from Yonsei Univers
 Abstract:
 In this talk, we first define the k-level coverage problem using mobile sensor networks, in which each point in a given (convex) region of interest is simultaneously covered by k individual sensors. This formulation extends the standard setup of sensor network coverage problem by stipulating the stricter requirement of multiple responsible sensors for each region of the tessellation as a result of the partitioning of the region of interest. We use a modified Voronoi-like scheme to find out the (locally) optimal location and associated covering region for the mobile sensors and design a control law that drives individual mobile sensors to the optimal configuration asymptotically.
 
+Bio:
+Ming Cao has since 2016 been a professor of networks and robotics with theEngineering and Technology Institute (ENTEG) at the University of Gronin.gen, the Netherlands, where he started as an assistant professor in 2008. Sinc2022 he is the director of the Jantina Tammes School of Digital Society, Tech.nology and Al at the same university, He received the Bachelor degree in1999 and the Master degree in 2002 from Tsinghua University, China, and thePh.D.degree in 2007 from Yale University, USA. From 2007 to 2008, he wasa Research Associate at Princeton University.USA,ie worked as a researchintern in 2006 at the IBM T.J. Watson Research Center, USA. He is the 2017and inaugural recipient of the Manfred Thoma medal from theInternationaFederation of Automatic Control (IFAC) and the 2016 recipient of the European Control Award sponsoredby the European Control Association (EUCA). He is an lEEE fellow, He is a Senior Editor for Systemsand Control Letters, an Associate Editor for IEEE Transactions on Automatic Control, IEEE Transactionof Control of Network Svstems and IEEE Robotics & Automation Vagazine, and was an associate editorfor lEEE Transactions on Circuits and Systems and lEEE Circuits and Systems Magazine.He is a memberof the lFAC Council. His research interests include autonomous robots and multi-agent systems, complexnetworks and decision-making processes.
+
 
 
 ## Hyungbo Shim | Consensus of Vector Fields: Adaptation of Heterogeneous Node Dynamics
@@ -40,12 +43,11 @@ Hyungbo Shim received his B.S. (1993), M.S. (1995), and Ph.D. (2000) degrees fro
 
 {{< fixed-image src="images/xia.jpg" width="300" height="300" alt="My Image" href="https://faculty.dlut.edu.cn/weiguo/zh_CN/index.htm">}}
 
-摘要: 
-报告提出一种无人集群系统鲁棒编队控制策略，旨在实现密集障碍环境中编队性能与安全性的平衡。基于一致性算法与自适应安全障碍函数，我们设计了一种新颖编队控制器。与传统方法采用控制障碍函数构建二次规划来确保无人系统安全性不同，该控制器提供具有解存在性保证的闭式解，避免了多重约束下二次规划不可行的问题。此外，相较于通过固定安全距离保障无人机安全性的方法，进一步提出根据无人系统速度自适应调整的动态安全距离机制，提高系统灵活性和环境适应性，满足不同场景的避障需求。仿真与实物实验验证了所提算法的有效性和可行性。
+Abstract:
+The report proposes a robust formation control strategy for unmanned swarm systems, which aims to achieve a balance between formation performance and security in a dense obstacle environment. Based on the consensus algorithm and the adaptive security barrier function, we design a novel formation controller. Different from the traditional method, which uses the control obstacle function to construct the quadratic programming to ensure the safety of the unmanned system, the controller provides a closed-form solution with the guarantee of the existence of the solution, which avoids the problem that the quadratic programming is not feasible under multiple constraints. In addition, compared with the method of ensuring the safety of UAV by fixed safety distance, a dynamic safety distance mechanism based on adaptive adjustment of unmanned system speed is further proposed to improve system flexibility and environmental adaptability and meet the needs of obstacle avoidance in different scenarios. Simulation and physical experiments verify the effectiveness and feasibility of the proposed algorithm.
 
-个人简介: 
-夏卫国，分别于2006年和2009年在东南大学获得学士和硕士学位，2013年在荷兰格罗宁根大学获得博士学位，2013-2015年在瑞典皇家理工学院从事博士后研究工作。现任大连理工大学控制科学与工程学院教授，复杂系统与控制研究所所长。主要研究兴趣包括分布式协同控制、多自主体系统、复杂网络系统等，主持国家自然科学基金优秀青年基金、面上项目等，入选辽宁省“兴辽英才计划”青年拔尖人才，担任国际期刊Systems & Control Letters、IEEE Transactions on Cybernetics编委。
-
+Bio:
+Weiguo Xia received his bachelor's and master's degrees from Southeast University in 2006 and 2009, his Ph.D. from the University of Groningen in 2013, and his postdoctoral research at KTH Royal Institute of Technology in Sweden from 2013 to 2015. He is currently a professor at the School of Control Science and Engineering and the director of the Institute of Complex Systems and Control, Dalian University of Technology. His main research interests include distributed collaborative control, multi-autonomic systems, complex network systems, etc., and he has presided over the National Natural Science Foundation of China Outstanding Youth Fund and general projects, and has been selected as a young top-notch talent in the "Xingliao Talent Program" in Liaoning Province, and serves as an editorial board member of the international journals Systems & Control Letters and IEEE Transactions on Cybernetics.
 
  
 
