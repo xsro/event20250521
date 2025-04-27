@@ -10,6 +10,7 @@
 .content-right {
   flex: 1; /* 内容自动填充剩余空间 */
   line-height: 1.6; /* 文本行高 */
+  margin-top: 10pt;
 }
 
 /* 小屏幕适配（可选） */
@@ -19,6 +20,12 @@
   }
   .image-left {
     max-width: 100%; /* 移动端图片撑满宽度 */
+  }
+  .content-right {
+    margin-top: 0; /* 移动端去掉内容上边距 */
+  }
+  .content-right{
+    text-align: center;
   }
 }
 </style>
@@ -31,16 +38,15 @@
   {{ $height := .Get "height" | default "100" }}
   {{ $image := $src.Fill (printf "%sx%s Center" $width $height) }}
   {{ $href :=.Get "href" | default $src.RelPermalink}}
-    <p style="text-align: center;">
+    <p class="image-left" style="text-align: center;">
       <a href="{{ $href }}" target="_blank">
-        <img src="{{ $image.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" class="image-left">
+        <img src="{{ $image.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" >
       </a>
     </p>
   {{ else }}
     <p>Image not found: {{ .Get "src" }}</p>
   {{ end }}
   <div class="content-right">
-    <br>
     {{ .Inner }}
   </div>
 </div>

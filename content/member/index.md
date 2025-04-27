@@ -7,22 +7,30 @@ title: "Group Members"
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< image_left_content_right src="images/liuch586.jpg" >}}
-Cheng Liu <a href="mailto:liuch586@mail2.sysu.edu.cn"> email </a><br>
-website: https://xsro.github.io/<br>
-github: https://github.com/xsro<br>
-{{< /image_left_content_right >}}
-
 {{< image_left_content_right src="images/yangzhm23.jpg" >}}
 ZhiMing Yang <br>
 email: <a href="mailto:yangzhm23@mail2.sysu.edu.cn"> yangzhm23@mail2.sysu.edu.cn </a>
 {{< /image_left_content_right >}}
 
+{{< image_left_content_right src="images/liuch586.jpg" >}}
+Cheng Liu <a href="mailto:liuch586@mail2.sysu.edu.cn"> email </a><br>
+website: <a href="https://xsro.github.io/">xsro.github.io<a><br>
+github: <a href="https://github.com/xsro">github.com/xsro<a><br>
+{{< /image_left_content_right >}}
+
+
+
 ### Current master students
 
+- 2025.9 - : Yuxin Zhang, JiaYi Li, ShaoFeng Xiong, PeiPei Jin
 - 2024.9 - : Hao Chen, QinTao Lai, RuTao Zhong
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
+
+{{< image_left_content_right src="images/zhangyuxin5149.jpg" >}}
+Yuxin Zhang <br>
+email: <a href="mailto:zhangyuxin5149@163.com"> zhangyuxin5149@163.com </a>
+{{< /image_left_content_right >}}
 
 ### Current undergratutes
 
