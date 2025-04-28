@@ -37,7 +37,8 @@ members:
     email: "3416469186@qq.com"
   - name: "JiaYi Li"
     img: "images/JiaYi_Li.jpg"
-    email: null
+    email: "lijy668@mail2.sysu.edu.cn"
+    research: "Extended Kalman Filter; Collaborative Localization"
   # Master students 2024
   - name: "Hao Chen"
     img: "images/Hao_Chen.jpg"
@@ -50,7 +51,7 @@ members:
     research: "guidance"
   - name: "RuTao Zhong"
     img: "images/RuTao_Zhong.jpg"
-    email: "zhongrutao@mail2.sysu.edu.cn"
+    email: "zhongrt@mail2.sysu.edu.cn"
   # Master students 2023
   - name: "YuAng Ke"
     img: "images/YuAng_Ke.jpg"
