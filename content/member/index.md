@@ -46,6 +46,12 @@ members:
     img: "images/xu.jpg"
     email: "xuhao63@mail2.sysu.edu.cn"
     research: "SDRE control"
+  - name: "JiaBo Liu"
+    img: "images/liujiabo2.jpg"
+    email: "lmlfight@163.com"
+    research: "Perscribed Performance Control;"
+    hobby: "Badminton"
+    
 ---
 
 ### Current Ph.D. students
@@ -62,7 +68,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke" "Hao Xu">}}
+{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke" "Hao Xu"   "JiaBo Liu">}}
 
 
 ### Current undergratutes
