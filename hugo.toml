@@ -1,11 +1,11 @@
 baseURL = 'https://xsro.github.io/event20250521/'
 languageCode = 'en-us'
-title = 'Zhang Fan @ SYSUsz'
+title = 'Fan Zhang @ SYSU'
 theme= "hugo-academia"
 canonifyURLs = true # if use absolute path.
 
 [params]
-author = "Dr. Zhang Fan"
+author = "Fan Zhang"
 author_bio = ""
 since = "2018"
 icp = ""
@@ -62,7 +62,7 @@ weight = 2
 [params.e_social.links."email"]
 name = "email"
 url = "mailto:drfzh@outlook.com"
-icon = "fas fa-graduation-cap"
+icon = "fas fa-envelope"
 weight = 1
 
 # CDN
