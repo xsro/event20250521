@@ -19,6 +19,11 @@ members:
     status: "Ph.D. student"
     research: "ZNN networks"
     hobby: "Basketball"
+  - name: "DanYu Li"
+    img: "images/lidanyu_250kb.jpg"
+    email: "2140284032@qq.com"
+    status: "Ph.D. student"
+    research: "Navigation and control"
   - name: "YuXin Zhang"
     img: "images/zhangyuxin5149_250kb.jpg"
     email: "zhangyuxin5149@163.com"
@@ -44,8 +49,10 @@ members:
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< member "ZhiMing Yang" >}}
+{{< member "Cheng Liu" >}}
 {{< member "YunWei Guo" >}}
+{{< member "ZhiMing Yang" >}}
+{{< member "DanYu Li" >}}
 
 ### Current master students
 
@@ -58,7 +65,7 @@ members:
 {{< member "ShaoFeng Xiong">}}
 {{< member "Hao Chen">}}
 {{< member "YuAng Ke">}}
-{{< member "Cheng Liu" >}}
+
 
 ### Current undergratutes
 
