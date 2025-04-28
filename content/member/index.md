@@ -49,7 +49,7 @@ members:
   - name: "JiaBo Liu"
     img: "images/liujiabo2.jpg"
     email: "lmlfight@163.com"
-    research: "Perscribed Performance Control;"
+    research: "Prescribed Performance Control"
     hobby: "Badminton"
     
 ---
