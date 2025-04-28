@@ -42,6 +42,10 @@ members:
     email: "keyang3@mail2.sysu.edu.cn"
     research: "fencing control;Reinforcement learning"
     hobby: "Basketball"
+  - name: "YaChuan Li"
+    img: "images/liych273.jpg"
+    email: "liych273@mail2.sysu.edu.cn"
+    research: "Distributed Estimation； Pointing Control"
   - name: "Hao Xu"
     img: "images/xu.jpg"
     email: "xuhao63@mail2.sysu.edu.cn"
@@ -68,7 +72,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke" "Hao Xu"   "JiaBo Liu">}}
+{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen" "YuAng Ke"  "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
 
 
 ### Current undergratutes
