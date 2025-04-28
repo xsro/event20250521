@@ -42,6 +42,10 @@ members:
     email: "keyang3@mail2.sysu.edu.cn"
     research: "fencing control;Reinforcement learning"
     hobby: "Basketball"
+  - name: "Hao Xu"
+    img: "images/xu.jpg"
+    email: "xuhao63@mail2.sysu.edu.cn"
+    research: "SDRE control"
 ---
 
 ### Current Ph.D. students
@@ -58,7 +62,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke">}}
+{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke" "Hao Xu">}}
 
 
 ### Current undergratutes
