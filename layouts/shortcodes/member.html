@@ -94,7 +94,10 @@
                     {{ with .email }}
                         <p><strong>Email:</strong> <a href="mailto:{{ . }}">{{ . }}</a></p>
                     {{ end }}
-                    <p><strong>Research:</strong> {{ .research }}</p>
+                    {{ with .research }}
+                        <p><strong>Research:</strong> {{ . }}</p>
+                    {{ end }}
+                    
                     {{ with .website }}
                         <p><strong>Website:</strong> <a href="{{ . }}">{{ . }}</a></p>
                     {{ end }}
