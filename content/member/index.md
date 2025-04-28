@@ -20,7 +20,7 @@ members:
     research: "ZNN networks"
     hobby: "Basketball"
   - name: "DanYu Li"
-    img: "images/lidanyu_250kb.jpg"
+    img: "images/lidanyu_250kb_clipped.jpg"
     email: "2140284032@qq.com"
     status: "Ph.D. student"
     research: "Navigation and control"

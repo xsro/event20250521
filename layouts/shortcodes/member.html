@@ -68,7 +68,9 @@
     {{ if eq .name $name }}
         <div class="member">
             <div class="member-image">
-                <img src="{{ .img }}" alt="{{ .name }}">
+                <a href="{{ .img }}" target="_blank">
+                    <img src="{{ .img }}" alt="{{ .name }}">
+                </a>
             </div>
             <div class="member-content">
                 <h2>{{ .name }}</h2>
