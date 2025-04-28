@@ -46,6 +46,8 @@ members:
     hobby: "Basketball"
   - name: "QinTao Lai"
     img: "images/QinTao_Lai.jpg"
+    email: "laiqt@mail2.sysu.edu.cn"
+    research: "guidance"
   - name: "RuTao Zhong"
     img: "images/RuTao_Zhong.jpg"
     email: "zhongrutao@mail2.sysu.edu.cn"
