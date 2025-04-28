@@ -31,7 +31,7 @@ members:
   - name: "ShaoFeng Xiong"
     img: "images/ShaoFeng_Xiong.jpg"
     email: "xiongsf8131@qq.com"
-    research: "fencing control; Reinforcement learning"
+    research: "fencing control; reinforcement learning"
   - name: "PeiPei Jin"
     img: "images/PeiPei_Jin.jpg"
     email: "3416469186@qq.com"
