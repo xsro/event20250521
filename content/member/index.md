@@ -5,7 +5,7 @@ members:
     img: "images/liuch586_250kb.jpg"
     status: "Ph.D. student"
     email: "liuch586@mail2.sysu.edu.cn"
-    research: "self-organizing fencing control"
+    research: "self-organizing fencing control;sliding mode control"
     website: "https://xsro.github.io"
     hobby: "Developing"
   - name: "YunWei Guo"
@@ -40,7 +40,7 @@ members:
   - name: "YuAng Ke"
     img: "images/keyuang_250kb.jpg"
     email: "keyang3@mail2.sysu.edu.cn"
-    research: "fencing control; Reinforcement learning"
+    research: "fencing control;Reinforcement learning"
     hobby: "Basketball"
 ---
 
@@ -49,10 +49,7 @@ members:
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< member "Cheng Liu" >}}
-{{< member "YunWei Guo" >}}
-{{< member "ZhiMing Yang" >}}
-{{< member "DanYu Li" >}}
+{{< member "Cheng Liu"   "YunWei Guo"  "ZhiMing Yang"  "DanYu Li" >}}
 
 ### Current master students
 
@@ -61,10 +58,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang">}}
-{{< member "ShaoFeng Xiong">}}
-{{< member "Hao Chen">}}
-{{< member "YuAng Ke">}}
+{{< member "YuXin Zhang"  "ShaoFeng Xiong"  "Hao Chen"  "YuAng Ke">}}
 
 
 ### Current undergratutes

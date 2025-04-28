@@ -1,4 +1,11 @@
 <style>
+    .member-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: left;
+        gap: 2rem;
+    }
     /* 成员容器样式 */
    .member {
         display: flex;
@@ -37,6 +44,10 @@
         object-fit: cover;
     }
 
+    .member-content{
+        width: 300px;
+    }
+
     /* 文本内容样式 */
    .member-content h2 {
         font-size: 1.5rem;
@@ -63,28 +74,36 @@
     }
 </style>
 
-{{ $name := .Get 0 }}
-{{ range $.Page.Params.members }}
-    {{ if eq .name $name }}
-        <div class="member">
-            <div class="member-image">
-                <a href="{{ .img }}" target="_blank">
-                    <img src="{{ .img }}" alt="{{ .name }}">
-                </a>
+{{ $params := slice }}
+{{ range $i, $v := .Params }}
+    {{ $params = $params | append ($.Get $i) }}
+{{ end }}
+
+<div class="member-container">
+{{ range $param := $params }}
+    {{ range $.Page.Params.members }}
+        {{ if eq .name $param }}
+            <div class="member">
+                <div class="member-image">
+                    <a href="{{ .img }}" target="_blank">
+                        <img src="{{ .img }}" alt="{{ .name }}">
+                    </a>
+                </div>
+                <div class="member-content">
+                    <h2>{{ .name }}</h2>
+                    {{ with .email }}
+                        <p><strong>Email:</strong> <a href="mailto:{{ . }}">{{ . }}</a></p>
+                    {{ end }}
+                    <p><strong>Research:</strong> {{ .research }}</p>
+                    {{ with .website }}
+                        <p><strong>Website:</strong> <a href="{{ . }}">{{ . }}</a></p>
+                    {{ end }}
+                    {{ with .hobby }}
+                        <p><strong>Hobby:</strong> {{ . }}</p>
+                    {{ end }}
+                </div>
             </div>
-            <div class="member-content">
-                <h2>{{ .name }}</h2>
-                {{ with .email }}
-                    <p><strong>Email:</strong> <a href="mailto:{{ . }}">{{ . }}</a></p>
-                {{ end }}
-                <p><strong>Research:</strong> {{ .research }}</p>
-                {{ with .website }}
-                    <p><strong>Website:</strong> <a href="{{ . }}">{{ . }}</a></p>
-                {{ end }}
-                {{ with.hobby }}
-                    <p><strong>Hobby:</strong> {{ . }}</p>
-                {{ end }}
-            </div>
-        </div>
+        {{ end }}
     {{ end }}
-{{ end }}    
+{{ end }}  
+</div>  
