@@ -7,7 +7,7 @@ members:
     email: "liuch586@mail2.sysu.edu.cn"
     research: "self-organizing fencing control;sliding mode control"
     # website: "https://xsro.github.io"
-    hobby: "Dreaming"
+    hobby: "retro games"
   - name: "YunWei Guo"
     img: "images/YunWei_Guo.png"
     status: "Ph.D. student"
@@ -89,7 +89,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang"  "JiaYi Li" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu" "Cheng Liu">}}
+{{< member "YuXin Zhang"  "JiaYi Li" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
 
 
 ### Current undergratutes
