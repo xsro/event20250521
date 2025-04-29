@@ -33,11 +33,6 @@ favicon = "/images/favicon-32x32.ico"  # Please use .ico format
     url = "/member/"
     weight = 4
 
-[params.menu.Event]
-    name = "Workshop 2025"
-    url = "events/workshop20250521"
-    weight = 5
-
 [params.loading_bg]
   flink = "/images/profile.png"
 
