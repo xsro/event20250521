@@ -1,6 +1,6 @@
 ---
 title: "Workshop on Distributed Autonomy and Intelligence"
-nosiderbar: true
+side_card.disable: true
 ---
 
 {{< meeting>}}

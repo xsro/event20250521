@@ -10,20 +10,20 @@ Delft University of Technology. I also visited the Institute of Systems Science,
 
 欢迎有 软硬件开发、控制工程、机器视觉 等相关基础的同学加入飞行器关键技术研发事业。
 
-# 💡 Research Interests
+## 💡 Research Interests
 
 My current research interests include Enhanced Observer Design, Nonsmooth Control, Learning Control, Distributed Estimation, Cooperative Target Fencing & Pointing control, and other relevant distributed coordination problems.
 
 
 
-# 👨‍💻 Projects
+## 👨‍💻 Projects
 
 2020.12 - 2025.11, High-Precision Multi-DOF Control of Inertial Sensors
 
 2018.1 - 2020.12, Cooperative Control of Lur'e Networks Over Dynamic Topologies
 
 
-# 💼 Professional Service
+## 💼 Professional Service
 - Associate Editor: European Journal of Control, IET Control Theory & Applications
   
 - Conference Editorial Board: IEEE Control Systems Society
@@ -37,21 +37,21 @@ Nonlinear Analysis: Hybrid Systems, IEEE Transactions on Cybernetics, IEEE Trans
 and Methods, International Journal of Adaptive Control and Signal Processing, IEEE Systems Journal, IEEE Internet of Things Journal
 
 
-# 📖 Courses
+## 📖 Courses
 - Undergraduate Courses: MATLAB with Applications
 
 - Postgraduate Courses: Robust and Adaptive Control
 
 
 
-#  Useful Links
+##  Useful Links
 
 ieeecss.org/conferences/all
 
 www.ifac-control.org/conferences
 
 
-#  Open Problems
+##  Open Problems
 
 In the case you are also interested in the following problems, please do not hesitate to drop me an email with your considerations. Thank you.
 

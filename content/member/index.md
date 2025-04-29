@@ -75,14 +75,14 @@ members:
     
 ---
 
-### Current Ph.D. students
+## Current Ph.D. students
 
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
 {{< member "Cheng Liu"   "YunWei Guo"  "ZhiMing Yang"  "DanYu Li" >}}
 
-### Current master students
+## Current master students
 
 - 2025.9 - : YuXin Zhang, JiaYi Li, ShaoFeng Xiong, PeiPei Jin
 - 2024.9 - : Hao Chen, QinTao Lai, RuTao Zhong
@@ -92,18 +92,18 @@ members:
 {{< member "YuXin Zhang"  "JiaYi Li" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
 
 
-### Current undergratutes
+## Current undergratutes
 
 - 2024.9 - : PeiPei Jin, NiCan Liu
 
-### Former master students
+## Former master students
 
 - 2021.9 - 2024.6: HongJie Fang (Control Engineer, Shenzhen Gudsen Technology, China)
 - 2021.9 - 2024.6: ZhiMing Yang (Ph.D. student, SYSU)
 - 2020.9 - 2022.6: Xin Deng (Product Manager, CaiNiao Network Technology, HangZhou, China)
 - 2019.9 - 2022.6: JinZe Wu (Ph.D. student, Southern University of Science and Technology, ShenZhen, China & Politecnico di Torino, Turin, Italy)
 
-### Former undergraduates
+## Former undergraduates
 
 - 2023.11 - 2024.5: ZhiYang Sun (master student, SYSU)
 - 2022.11 - 2023.5: YuAng Ke (master student, SYSU), MingShuai Wu (master student, SYSU), Ke Xu (master student, PKU)
