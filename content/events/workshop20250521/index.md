@@ -1,12 +1,13 @@
 ---
 title: "Workshop on Distributed Autonomy and Intelligence"
 side_card_disable: true
-date: "May 21st, 2025"
-location: "Sun Yat-sen University, Shenzhen, China"
-address: "No.66,Gongchang Road,Guangming District,Shenzhen,Guangdong 518107,P.R.China"
-gaode: "https://surl.amap.com/HCHxUAtyeNJ"
-baidu: "https://j.map.baidu.com/6e/pck"
-google: "https://maps.app.goo.gl/t1iFkk9MFk5PA37s9"
+info:
+    date: "May 21st, 2025"
+    location: "Sun Yat-sen University, Shenzhen, China"
+    address: "No.66,Gongchang Road,Guangming District,Shenzhen,Guangdong 518107,P.R.China"
+    gaode: "https://surl.amap.com/HCHxUAtyeNJ"
+    baidu: "https://j.map.baidu.com/6e/pck"
+    google: "https://maps.app.goo.gl/t1iFkk9MFk5PA37s9"
 ---
 
 {{< meeting >}}
