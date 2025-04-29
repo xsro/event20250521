@@ -1,5 +1,12 @@
+{{with .Params.side_card_disable}}
+    <style>
+        .card-wrap{
+            display: none;
+        } 
+    </style>   
+{{end}}
+
 <div class="side-card sticky">
-    {{if not .Params.side_card.disable}}
     <div class="card-wrap" itemscope itemtype="http://schema.org/Person">
         <div class="author-avatar">
             {{if .Site.Params.avatar}}
@@ -47,7 +54,7 @@
             {{end}}
         </div>
     </div>
-    {{end}}
+    
     <div class="toc-contents">
         {{ .TableOfContents }}
     </div>
