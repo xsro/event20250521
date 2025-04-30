@@ -57,6 +57,7 @@ members:
   # Master students 2023
   - name: "YuAng Ke"
     img: "images/YuAng_Ke.jpg"
+    imglink: "images/big/YuAng_Ke.jpg"
     email: "keyang3@mail2.sysu.edu.cn"
     research: "fencing control;reinforcement learning"
     hobby: "basketball"
