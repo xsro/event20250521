@@ -42,5 +42,10 @@ def process_images(folder_path):
 
 if __name__ == "__main__":
     from pathlib import Path
-    folder_path = Path.cwd() / 'content' / 'member' /'images'
-    process_images(folder_path)
+    import sys
+    if len(sys.argv) == 3:
+        print(sys.argv)
+        compress_image(sys.argv[1],sys.argv[2])
+    else:
+        folder_path = Path.cwd() / 'content' / 'member' /'images'
+        process_images(folder_path)

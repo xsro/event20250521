@@ -15,12 +15,14 @@ members:
     research: "UAV control"
   - name: "ZhiMing Yang"
     img: "images/ZhiMing_Yang.jpg"
+    imglink: "images/big/ZhiMing_Yang.jpg"
     email: "yangzhm23@mail2.sysu.edu.cn"
     status: "Ph.D. student"
     research: "robust control; neural networks"
     hobby: "basketball"
   - name: "DanYu Li"
     img: "images/DanYu_Li.jpg"
+    imglink: "images/big/DanYu_Li.jpg"
     email: "2140284032@qq.com"
     research: "navigation and control"
   # Master students 2025
@@ -60,6 +62,7 @@ members:
     hobby: "basketball"
   - name: "YaChuan Li"
     img: "images/YaChuan_Li.jpg"
+    imglink: "images/big/YaChuan_Li.jpg"
     email: "liych273@mail2.sysu.edu.cn"
     research: "distributed Estimation; pointing Control"
   # Master students 2022

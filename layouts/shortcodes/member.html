@@ -85,7 +85,11 @@
         {{ if eq .name $param }}
             <div class="member">
                 <div class="member-image">
+                    {{ if .imglink }}
+                    <a href="{{ .imglink }}" target="_blank">
+                        {{ else}}
                     <a href="{{ .img }}" target="_blank">
+                        {{ end }}
                         <img src="{{ .img }}" alt="{{ .name }}">
                     </a>
                 </div>
