@@ -93,7 +93,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang"  "JiaYi Li" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
+{{< member "YuXin Zhang" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
 
 
 ## Current undergratutes

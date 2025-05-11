@@ -13,5 +13,5 @@ We warmly welcome all experts' guidance and look forward to a fruitful and inspi
 
 ## News
 
-- 2025.6 Welcome YuXin Zhang, JiaYi Li, ShaoFeng Xiong, and PeiPei Jin to pursue MS degree in our group!
+- 2025.6 Welcome YuXin Zhang, ShaoFeng Xiong, and PeiPei Jin to pursue MS degree in our group!
 - 2025.3 Welcome YunWei Guo and Cheng Liu to pursue Ph.D. degree in our group!
