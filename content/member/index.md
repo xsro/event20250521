@@ -37,10 +37,6 @@ members:
   - name: "PeiPei Jin"
     img: "images/PeiPei_Jin.jpg"
     email: "3416469186@qq.com"
-  - name: "JiaYi Li"
-    img: "images/JiaYi_Li.jpg"
-    email: "lijy668@mail2.sysu.edu.cn"
-    research: "extended kalman filter; collaborative localization"
   # Master students 2024
   - name: "Hao Chen"
     img: "images/Hao_Chen.jpg"
@@ -88,7 +84,7 @@ members:
 
 ## Current master students
 
-- 2025.9 - : YuXin Zhang, JiaYi Li, ShaoFeng Xiong, PeiPei Jin
+- 2025.9 - : YuXin Zhang, ShaoFeng Xiong, PeiPei Jin
 - 2024.9 - : Hao Chen, QinTao Lai, RuTao Zhong
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
