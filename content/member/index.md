@@ -83,11 +83,11 @@ members:
 - 2025.9 - : Cheng Liu, YunWei Guo
 - 2024.9 - : ZhiMing Yang, DanYu Li
 
-{{< member "Cheng Liu"   "YunWei Guo"  "ZhiMing Yang"  "DanYu Li" >}}
+{{< member "ZhiMing Yang"  "DanYu Li" "Cheng Liu"   "YunWei Guo"  >}}
 
 ## Current master students
 
-- 2025.9 - : YuXin Zhang, ShaoFeng Xiong, PeiPei Jin
+- 2025.9 - : ZengNing Lai, YuXin Zhang, ShaoFeng Xiong, PeiPei Jin
 - 2024.9 - : Hao Chen, QinTao Lai, RuTao Zhong
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
