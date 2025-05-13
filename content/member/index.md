@@ -37,6 +37,9 @@ members:
   - name: "PeiPei Jin"
     img: "images/PeiPei_Jin.jpg"
     email: "3416469186@qq.com"
+  - name: "ZengNing Lai"
+    img: "images/ZengNing_Lai.png"
+    email: "2462344534@qq.com"
   # Master students 2024
   - name: "Hao Chen"
     img: "images/Hao_Chen.jpg"
@@ -89,7 +92,7 @@ members:
 - 2023.9 - : YuAng Ke, YaChuan Li
 - 2022.9 - : Cheng Liu, JiaBo Liu, Hao Xu
 
-{{< member "YuXin Zhang" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu">}}
+{{< member "ZengNing Lai" "YuXin Zhang" "ShaoFeng Xiong" "PeiPei Jin" "Hao Chen" "QinTao Lai"  "RuTao Zhong" "YuAng Ke" "YaChuan Li" "Hao Xu"   "JiaBo Liu" >}}
 
 
 ## Current undergratutes
